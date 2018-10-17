@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<!--
+* Rutgers CINJ Bone Marrow Transplant Support Tool
+* Designed & Coded by Beatrice Trinidad
+* @version v1.0.0
+* Rutgers School of Communication & information
+* Rutgers Cancer Institute of New Jersey
+*
+*
+* CoreUI - Free Bootstrap Admin Template
+* @version v2.0.0
+* @link https://coreui.io
+* Copyright (c) 2018 creativeLabs Łukasz Holeczek
+* Licensed under MIT (https://coreui.io/license)
+*
+*
+-->
+
+<!--- HEAD ---->
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+  <meta name="description" content="Rutgers Cancer Institute of New Jersey - Bone Marrow Transplant Tool">
+  <meta name="author" content="Rutgers Human-Computer Interaction Lab of Health & Sustainability">
+  <title>Rutgers CINJ Bone Marrow Transplant Tool</title>
+  <!-- Icons-->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+  <link href="../node_modules/@coreui/icons/css/coreui-icons.min.css" rel="stylesheet">
+  <link href="../node_modules/flag-icon-css/css/flag-icon.min.css" rel="stylesheet">
+  <link href="../node_modules/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+  <link href="../node_modules/simple-line-icons/css/simple-line-icons.css" rel="stylesheet">
+  <!-- Main styles for this application-->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  <link href="css/style.css" rel="stylesheet">
+  <link href="css/custom.css" rel="stylesheet">
+  <link href="vendors/pace-progress/css/pace.min.css" rel="stylesheet">
+</head>
+
+<!-- TOP NAVIGATION -->
+
+<body class="app header-fixed sidebar-fixed aside-menu-fixed sidebar-lg-show">
+
+  <!-- HEADER -->
+  <header class="app-header">
+    <nav class="navbar navbar-dark bg-primary static-top navbar-expand-lg sticky-top">
+      <button class="navbar-toggler sidebar-toggler d-lg-none mr-auto" type="button" data-toggle="sidebar-show">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <a class="navbar-brand" href="index02.html">
+        <img class="navbar-brand-full" src="img/brand/cinj_logo.png" height="40" alt="CINJ Logo">
+        <img class="navbar-brand-minimized" src="img/brand/sygnet.svg" width="30" height="30" alt="CoreUI Logo">
+      </a>
+      <button class="navbar-toggler sidebar-toggler d-md-down-none" type="button" data-toggle="sidebar-lg-show">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <ul class="nav navbar-nav ml-auto">
+        <li class="nav-item d-md-down-none">
+          <a class="nav-link" href="#">
+            <i class="fas fa-plus-circle"></i>
+          </a>
+        </li>
+        <li class="nav-item d-md-down-none">
+          <a class="nav-link" href="#">
+            <i class="far fa-envelope-open"></i>
+          </a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
+            <img class="img-avatar" src="img/avatars/Kathy.png">
+          </a>
+          <div class="dropdown-menu dropdown-menu-right">
+            <div class="dropdown-header text-center">
+              <strong>Account</strong>
+            </div>
+            <a class="dropdown-item" href="#">
+                <i class="fas fa-wrench"></i> Settings
+              </a>
+            <a class="dropdown-item" href="#">
+                <i class="fas fa-sign-out-alt"></i> Logout
+              </a>
+          </div>
+        </li>
+      </ul>
+    </nav>
+  </header>
+
+  <div class="app-body">
+    <!-- SIDEBAR -->
+    <div class="sidebar">
+      <nav class="sidebar-nav ps ps--active-y">
+        <ul class="nav">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">
+                <i class="fas fa-home mr-2"></i> Home
+              </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="first100days.html">
+                <i class="fas fa-calendar-alt mr-2"></i>The First 100 Days</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="caregiverprep.html">
+                <i class="fas fa-hand-holding-heart mr-2"></i>Caregiver Prep</a>
+          </li>
+          <li class="nav-item nav-dropdown">
+            <a class="nav-link nav-dropdown-toggle" href="survivaldata.html"><i class="fas fa-calculator mr-2"></i>Your Survival Data</a>
+            <ul class="nav-dropdown-items">
+              <li class="nav-item">
+                  <a class="nav-link" href="gvhd-calc.html">
+                    <i class="fas fa-calculator mr-2"></i>Graft-Versus-Host Disease</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="bmt-calc.html">
+                    <i class="fas fa-calculator mr-2"></i>Bone Marrow Transplant</a>
+              </li>
+            </ul>
+          <li class="nav-item">
+            <a class="nav-link" href="colors.html">
+                <i class="fab fa-youtube mr-2"></i>Experience Videos</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  <!-- MAIN -->
+  <main class="main">
+    <!-- Breadcrumb-->
+    <ol class="breadcrumb">
+      <li class="breadcrumb-item">Home</li>
+      <li class="breadcrumb-item active">Dashboard</li>
+    </ol>
+    <div class="container-fluid">
+      <div class="animated fadeIn">
+        <div class="row">
+          <!-- Welcome Text -->
+          <div class="col-lg-6">
+              <h1>Welcome to your Bone Marrow Transplant Support Tool</h1>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis
+                aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            </div>
+          <!-- Medical Information -->
+          <div class="col-lg-6">
+            <div class="card border-success">
+              <div class="card-header border-success bg-success"><h5 class="mb-0">Your Medical Information</h5></div>
+                <div class="card-body border-success">
+                  <table class="table table-responsive-sm mb-0">
+                    <tbody>
+                      <tr>
+                        <th scope="row" class="border-top-0">Name:</th>
+                        <td class="border-top-0">Kathy Smith</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">Sex:</th>
+                        <td>Female</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">Age:</th>
+                        <td>40-49 years old</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">Diagnosis:</th>
+                        <td>Acute Myeloid Leukemia (AML)</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">Donor:</th>
+                        <td>Living Related Donor</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">Mutation:</th>
+                        <td>FLT3 Mutation</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+                <div class="card-footer text-muted bg-transparent border-success">Incorrect information? <a href="#">Let us know!</a></div>
+              </div>
+            </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-12">
+        <!-- Recommended Videos -->
+        <section class="rec-videos text-center bg-gray-200">
+            <div class="container-fluid">
+                <h4 class="mb-2 mt-4 p-3">Recommended Videos</h4>
+                    <div class="card-deck pb-3">
+                        <div class="card mb-2">
+                            <img class="card-img-top img-fluid" src="img/videos/roger.jpg" alt="">
+                            <div class="card-body">
+                              <h5 class="card-title">Dr. Strair <small class="text-muted">(Doctor)</small></h5>
+                                  <p class="card-text">Dr. Strair explains the purpose of this site and how to get the most out of it.</p>
+                                </div>
+                                  <div class="card-footer bg-transparent border-top-0">
+                                  <a href="#" class="btn btn-secondary btn-block"><i class="far fa-play-circle"></i> Watch Video</a>
+                                </div>
+                          </div>
+                          <div class="card mb-2">
+                            <img class="card-img-top img-fluid" src="img/videos/tom.png" alt="">
+                            <div class="card-body">
+                              <h5 class="card-title">Tom <small class="text-muted">(Patient)</small></h5>
+                              <p class="card-text">Tom describes a conversation he had with another patient when making his decision.</p>
+                            </div>
+                              <div class="card-footer bg-transparent border-top-0">
+                              <a href="#" class="btn btn-secondary btn-block"><i class="far fa-play-circle"></i> Watch Video</a>
+                            </div>
+                      </div>
+                          <div class="card mb-2">
+                              <img class="card-img-top img-fluid" src="img/videos/Helen.jpg" alt="">
+                              <div class="card-body">
+                                  <h5 class="card-title">Helen <small class="text-muted">(Caregiver)</small></h5>
+                                  <p class="card-text">Helen shares her experience of taking on more of her husband's responsibilities.</p>
+                                </div>
+                                  <div class="card-footer bg-transparent border-top-0">
+                                  <a href="#" class="btn btn-secondary btn-block"><i class="far fa-play-circle"></i> Watch Video</a>
+                                </div>
+                          </div>
+                </div>
+              </div>
+        </section>
+      </div>
+    </div>
+  </div>
+
+  <!-- FOOTER -->
+  <footer class="app-footer">
+  <div>
+    <a href="#">Rutgers Cancer Institute of New Jersey</a>
+    <span>&copy; 2018</span>
+  </div>
+  <div class="ml-auto">
+    <span>Created by</span>
+    <a href="#">School of Communication & Information</a>
+  </div>
+</footer>
+
+  <!-- CoreUI and necessary plugins-->
+  <script src="../node_modules/jquery/dist/jquery.min.js"></script>
+  <script src="../node_modules/popper.js/dist/umd/popper.min.js"></script>
+  <script src="../node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+  <script src="../node_modules/pace-progress/pace.min.js"></script>
+  <script src="../node_modules/perfect-scrollbar/dist/perfect-scrollbar.min.js"></script>
+  <script src="../node_modules/@coreui/coreui/dist/js/coreui.min.js"></script>
+  <!-- Plugins and scripts required by this view-->
+  <script src="../node_modules/chart.js/dist/Chart.min.js"></script>
+  <script src="../node_modules/@coreui/coreui-plugin-chartjs-custom-tooltips/dist/js/custom-tooltips.min.js"></script>
+  <script src="js/main.js"></script>
+</body>
+
+</html>
